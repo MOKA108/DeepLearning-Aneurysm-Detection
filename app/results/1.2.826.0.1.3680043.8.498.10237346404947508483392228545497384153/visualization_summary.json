@@ -1,0 +1,19 @@
+{
+  "volume": "data/preprocessed_data/resample/1.2.826.0.1.3680043.8.498.10237346404947508483392228545497384153_res.nii",
+  "uid": "1.2.826.0.1.3680043.8.498.10237346404947508483392228545497384153",
+  "weights": "src/app/best_model.pth",
+  "model_type": "tinyunet3d",
+  "tinyunet_base_filters": 8,
+  "patch_size": 32,
+  "stride": 10,
+  "aggregation": "max",
+  "threshold": 0.85,
+  "score": 0.8726827502250671,
+  "pred_label": 1,
+  "predicted_coordinate": [
+    70,
+    100,
+    30
+  ],
+  "device": "cpu"
+}

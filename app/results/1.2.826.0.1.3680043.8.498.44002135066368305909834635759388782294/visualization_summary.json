@@ -1,0 +1,25 @@
+{
+  "volume": ".\\data\\preprocessed_data\\resample\\1.2.826.0.1.3680043.8.498.44002135066368305909834635759388782294_res.nii",
+  "weights": ".\\src\\app\\best_model.pth",
+  "model_type": "tinyunet3d",
+  "tinyunet_base_filters": 8,
+  "patch_size": 32,
+  "stride": 10,
+  "aggregation": "max",
+  "threshold": 0.85,
+  "score": 0.8491954803466797,
+  "pred_label": 0,
+  "pred_coord": [
+    80,
+    110,
+    80
+  ],
+  "distance_to_nearest_truth": null,
+  "device": "cpu",
+  "overlay_files": [
+    "axial_overlay.png",
+    "coronal_overlay.png",
+    "sagittal_overlay.png",
+    "axial_threshold_mask.png"
+  ]
+}
