@@ -16,7 +16,8 @@ A dedicated Streamlit application allows interactive visualizations.
 
 Model pipeline overview:
 
-![Model overview](schemas/Model_pipeline_overview.PNG)
+![Model overview](schema/Model_pipeline_overview.PNG)
+
 ---
 
 ## Features
@@ -103,7 +104,7 @@ Two architectures were tested:
 - A simple 3D CNN
 A lightweight baseline composed of three convolutional blocks followed by global pooling and a fully connected classifier.
 
-![3D CNN](schemas/3DCNN.PNG)
+![3D CNN](schema/3DCNN.PNG)
 
 - A Tiny 3D U-Net. 
 A compact encoder–decoder architecture with skip connections.
@@ -113,7 +114,7 @@ It includes:
 - Two upsampling blocks (decoder)
 - A global pooling layer for classification
 
-![3D Tiny U-Net](schemas/3D_U-Net.PNG)
+![3D Tiny U-Net](schema/3D_U-Net.PNG)
 
 ---
 
