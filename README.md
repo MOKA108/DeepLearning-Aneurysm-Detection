@@ -135,7 +135,7 @@ The Tiny 3D U-Net with Focal Loss achieved the best validation performance:
     - Specificity: 0.58
     - AUC: 0.67
 
-Although the model demonstrated strong discriminative power at the patch scale, whole-scan performance remains challenging—reflecting known limitations of patch-based inference in 3D medical imaging.
+Although the model demonstrated strong discriminative power at the patch scale, whole-scan performance remains challenging, reflecting known limitations of patch-based inference in 3D medical imaging.
 
 ---
 
